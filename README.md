@@ -3,6 +3,8 @@ Week 2 Quiz: Evaluating machine learning models
 
 Question 1
 What is the sensitivity and specificity of a pneumonia model that always outputs positive?  In other words, the models says that every patient has the disease.
+
+
 Answer: 
 sensitivity = 1.0, specificity = 0.0
 
@@ -14,6 +16,8 @@ Given a sensitivity = 0.9, specificity = 0.8, and prevalence = 0.2, what is the 
 
 HINT: please check the reading item "Calculating PPV in terms of sensitivity, specificity and prevalence"
 
+
+
 Answer: 
 0.53
 
@@ -23,12 +27,15 @@ If sensitivity = 0.9, specificity = 0.8, and prevalence = 0.2, then what is the 
 
 Hint: You can watch the video "Sensitivity, Specificity and Prevalence" to find the equation.
 
+
+
 Answer:
 0.82
 
 
 Question 4
 What is the sensitivity and specificity of a model which randomly assigns a score between 0 and 1 to each example (with equal probability) if we use a threshold of 0.7?  
+
 
 Answer:
 Sensitivity = 0.3, Specificity = 0.7
